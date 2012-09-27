@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+	<set name="CSS">
+		<completion trigger="_br">
+			<snippet>{
+	@:			
+}</snippet>
+		</completion>
+	
+		<completion trigger="a_all">
+			<snippet>a, a:link {color:blue; background:white}
+  a:visited {color:green}
+  a:active,
+  a:focus,
+  a:hover {color:red}</snippet>
+		</completion>
+	    <completion trigger="opacity">
+			<snippet>.@:opacity {-moz-opacity:.30; filter:alpha(opacity=30); opacity:.30}</snippet>
+	    </completion>
+	    
+	    <completion trigger="centerDiv">
+			<snippet>#@:id {
+	position: absolut;
+	left:50%;
+	margin-left:400px;
+	top:50%;
+	width:800px;
+}</snippet>
+		</completion>
+		
+		<completion trigger="background">
+			<snippet>background:#@: url(@:) @:repeat @:scroll_fixed @:top_bottom @:left_right;</snippet>
+		</completion>
+		
+		<completion trigger="border">
+			<snippet>border: @:1px @:solid #@:999;</snippet>
+		</completion>
+		
+		<completion trigger="clear">
+			<snippet>clear: @:left;</snippet>
+		</completion>
+		
+		<completion trigger="color">
+			<snippet>color: #@:DDD;</snippet>
+		</completion>
+		
+		<completion trigger="cursor">
+			<snippet>cursor: default/auto/crosshair/pointer/move/text/wait/help;</snippet>
+		</completion>
+		
+		<completion trigger="display">
+			<snippet>display: @:inline;</snippet>
+		</completion>
+		
+		<completion trigger="doc">
+			<snippet>/*
+	@:
+*/</snippet>
+		</completion>
+		
+		<completion trigger="float">
+			<snippet>float: @:left;</snippet>
+		</completion>
+		
+		<completion trigger="font">
+			<snippet>font: @:75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;</snippet>
+		</completion>
+		
+		<completion trigger="letter">
+			<snippet>letter-spacing: @:1px;</snippet>
+		</completion>
+		
+		<completion trigger="list">
+			<snippet>list-style: @:none @:inside @:url;</snippet>
+		</completion>
+		
+		<completion trigger="margin">
+			<snippet>margin: @:20px @:0px;</snippet>
+		</completion>
+		
+		<completion trigger="overflow">
+			<snippet>overflow: @:auto;</snippet>
+		</completion>
+		
+		<completion trigger="padding">
+			<snippet>padding: @:20px @:0px;</snippet>
+		</completion>
+		
+		<completion trigger="text">
+			<snippet>text-align: @:left;</snippet>
+		</completion>
+		
+		<completion trigger="z">
+			<snippet>z-index: @:;</snippet>
+		</completion>
+	    
+	</set>
+</codesense>

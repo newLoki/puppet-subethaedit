@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+	<set name="User Snippets">
+	    <completion trigger="test" mode="HTML">
+			<snippet>
+	@:plaholder
+</snippet>
+	    </completion>
+	</set>
+</codesense>

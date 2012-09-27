@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+	<set name="CSS">
+	    <completion string="completion">
+			<snippet>&#60;completion trigger="@:"&#62;
+	&#60;snippet&#62;&#60;/snippet&#62;
+&#60;/completion&#62;</snippet>
+		</completion>
+	    
+	</set>
+</codesense>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+	<set name="PHP">
+		<completion trigger="_br">
+			<snippet>{
+	@:			
+}</snippet>
+		</completion>
+	
+		<completion trigger="expr">
+			<snippet>$@: == @:</snippet>
+		</completion>
+	
+		<completion trigger="arr">
+			<snippet>$array['@:key'] = "@:value";</snippet>
+		</completion>
+	    <completion trigger="if">
+			<snippet>if (@:expr) {
+	@:
+} </snippet>
+	    </completion>
+	    <completion trigger="ifelse">
+			<snippet>if (@:expr) {
+	@:
+} else {
+	@:
+}</snippet>
+	    </completion>
+	    <completion trigger="elseif">
+	    	<snippet>elseif (@:expr) {
+	@:
+} </snippet>
+	    </completion>
+	    <completion trigger="else">
+			<snippet>else {
+	@:
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="while">
+	    	<snippet>while (@:expr) {
+	@:
+}</snippet>
+	    </completion>
+	    <completion trigger="foreach">
+	    	<snippet>foreach (@:array_expression as $@:key => $@:value) {
+	@:
+}</snippet>
+	    </completion>
+	    <completion trigger="for">
+	    	<snippet>for (@:expr1; @:expr2; @:expr3) {
+	@:
+}</snippet>
+	    </completion>
+	    <completion trigger="class">
+	    <snippet>@:doc
+class @:className @:extends {
+
+	@:privar
+
+	@:con
+	
+	@:fun
+	
+}
+@:new</snippet>
+	    </completion>
+	    
+	    <completion trigger="extends">
+	    	<snippet>extends @:parentClass</snippet>
+	    </completion>
+	    
+	    
+	    <completion trigger="switch">
+	    <snippet>switch ($@:variable) {
+	@:case
+	default:
+		@:
+		break;
+}</snippet>
+	    </completion>
+
+	    <completion trigger="case">
+	    <snippet>case '@:trigger':
+	@:
+	break;</snippet>
+	    </completion>
+	    
+	    <completion trigger="var">
+	    	<snippet>$@:variable_name = @:;</snippet>
+	    </completion>
+	    
+	    <completion trigger="provar">
+	    	<snippet>protected $@:variable_name = @:null;</snippet>
+	    </completion>
+	    
+	    <completion trigger="pubvar">
+	    	<snippet>public $@:variable_name = @:null;</snippet>
+	    </completion>
+	    
+	    <completion trigger="privar">
+	    	<snippet>private $@:variable_name = @:null;</snippet>
+	    </completion>
+	    
+	    <completion trigger="varprot">
+	    	<snippet>protected $@:variable_name = @:null;</snippet>
+	    </completion>
+	    
+	    <completion trigger="varpub">
+	    	<snippet>public $@:variable_name = @:null;</snippet>
+	    </completion>
+	    
+	    <completion trigger="varpriv">
+	    	<snippet>private $@:variable_name = @:null;</snippet>
+	    </completion>
+	    
+	    <completion trigger="fun">
+	    <snippet>@:doc_f
+@:private function @:function_name (@:) {
+	@:
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="funcpub">
+	    <snippet>public function @:function_name (@:) {
+	@:code
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="funcpriv">
+	    <snippet>private function @:function_name (@:) {
+	@:code
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="funcprot">
+	    <snippet>protected function @:function_name(@:) {
+	@:code
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="pubfun">
+	    <snippet>public function @:function_name (@:) {
+	@:code
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="prifun">
+	    <snippet>private function @:function_name (@:) {
+	@:code
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="profun">
+	    <snippet>protected function @:function_name (@:) {
+	@:code
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="do">
+	    	<snippet>do {
+	@:code
+} while ();</snippet>
+	    </completion>
+	    
+	    <completion trigger="echo">
+	    	<snippet>echo "@:string";</snippet>
+	    </completion>
+	    
+	    <completion trigger="con">
+	    	<snippet>@:doc_f
+public function __construct () {
+	parent::__construct();
+	@:
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="des">
+	    	<snippet>function __destruct () {
+	@:code
+}</snippet>
+	    </completion>
+	    
+	    <completion trigger="incl">
+	    	<snippet>include '@:path_to_file';</snippet>
+	    </completion>
+	    
+	    <completion trigger="incl1">
+	    	<snippet>include_once '@:path_to_file';</snippet>
+	    </completion>
+	    
+	    <completion trigger="req">
+	    	<snippet>require '@:path_to_file';</snippet>
+	    </completion>
+	    
+	    <completion trigger="req1">
+	    	<snippet>req1 '@:path_to_file';</snippet>
+	    </completion>
+	    
+	    <completion trigger="ret">
+	    	<snippet>return $@:variable;</snippet>
+	    </completion>
+	    
+	    <completion trigger="ret0">
+	    	<snippet>return false@:;</snippet>
+	    </completion>
+	    
+	    <completion trigger="ret1">
+	    	<snippet>return true@:;</snippet>
+	    </completion>
+	    
+	    <completion trigger="todo">
+	    	<snippet>// TODO @:</snippet>
+	    </completion>
+	    
+	    <completion trigger="domdoc">
+	    	<snippet>/* Docs: http://uk.php.net/manual/en/class.domdocument.php */
+$dom = new DOMDocument();
+$dom->load("@:path_to_file");
+$elements = $dom->getElementsByTagName('tag');</snippet>
+	    </completion>
+	    
+	    <completion trigger="dump">
+	    	<snippet>echo '&#60;pre&#62;'; print_r(var_dump($@:variable)); echo '&#60;/pre&#62;';</snippet>
+	    </completion>
+	    <completion trigger="pre">
+	    	<snippet>echo '&#60;pre&#62;'; print_r($@:variable); echo '&#60;/pre&#62;';</snippet>
+	    </completion>
+	    
+	   	<completion trigger="php">
+	   		<snippet>&#60;?php
+	   		
+@:
+
+?&#62;</snippet>
+	   	</completion>
+	   	
+	   	<completion trigger="server">
+	   		<snippet>$_SERVER['@:']</snippet>
+	   	</completion>
+	   	
+	   	<completion trigger="ifset">
+	   		<snippet>if(isset(@:)) {
+	
+}</snippet>
+	   	</completion>
+	   	
+	   	<completion trigger="ifempty">
+	   		<snippet>if(empty(@:)) {
+	
+}</snippet>
+	   	</completion>
+	    
+
+
+		<completion trigger="doc">
+	    	<snippet>/**
+ * @:comment
+ *
+ * @author @:author
+ */</snippet>
+	    </completion>
+
+		<completion trigger="doc_f">
+	    	<snippet>/**
+ * @:comment
+ *
+ * @return @:retval
+ * @author @:author
+ */</snippet>
+	    </completion>
+	    
+	    <completion trigger="author">
+			<snippet>Christoffer Winterkvist (oprah_noodlemantra)@:</snippet>
+	    </completion>
+	    
+
+
+	<completion trigger="new">
+		<snippet>$@:instance = new @:className();</snippet>
+	</completion>
+	
+	<completion trigger="const">
+		<snippet>const @:CONSTANT = '@:constant_value';</snippet>
+	</completion>
+	
+	<completion trigger="ifvar">
+		<snippet>$@:variable = (@:statement)
+	? @:params
+	: @:false;</snippet>
+	</completion>
+
+	</set>
+</codesense>

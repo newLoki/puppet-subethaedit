@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+	<set name="PHP Functions">
+	    <completion string="nslog">
+			<snippet>NSLog("%@", @:placerholder);</snippet>
+	    </completion>
+	    
+	</set>
+</codesense>

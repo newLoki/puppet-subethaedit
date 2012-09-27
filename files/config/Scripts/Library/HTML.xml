@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense version="1.0">
+	<set name="HTML">
+		
+		<completion trigger="a">
+			<snippet>&#60;a @:href @:target&#62;@:textContent&#60;/a&#62;</snippet>
+		</completion>
+		
+		<completion trigger="target">
+			<snippet>target="@:_self"</snippet>
+		</completion>
+		
+		<completion trigger="href">
+			<snippet>href="@:url"</snippet>
+		</completion>
+		
+		<completion trigger="html">
+			<snippet>&#60;html&#62;
+	@:head
+&#60;/html&#62;</snippet>
+		</completion>
+		
+		
+		<completion trigger="doc4t">
+			<snippet>&#60;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&#62;@:</snippet>
+		</completion>
+		<completion trigger="doc4s">
+			<snippet>&#60;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&#62;@:</snippet>
+		</completion>
+		<completion trigger="doc5">
+		<snippet>&#60;!DOCTYPE HTML&#62;@:</snippet>
+		</completion>
+		<completion trigger="doc_xt">
+		<snippet>&#60;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&#62;@:</snippet>
+		</completion>
+		<completion trigger="doc_xxs">
+		<snippet>&#60;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&#62;@:</snippet>
+		</completion>
+		
+		<completion trigger="doc_xs">
+		<snippet>&#60;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&#62;</snippet>
+		</completion>
+		
+		<completion trigger="html_xml">
+			<snippet>&#60;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&#62;
+	@:
+&#60;/html&#62;</snippet>
+		</completion>
+		
+		<completion trigger="html4t">
+			<snippet>&#60;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&#62;
+&#60;html lang="en"&#62;
+	&#60;head&#62;
+		&#60;title&#62;@:Untitled_document&#60;/title&#62;
+	&#60;/head&#62;
+	&#60;body&#62;
+		@:
+	&#60;/body&#62;
+&#60;/html&#62;</snippet>
+		</completion>
+		
+		<completion trigger="html4s">
+			<snippet>&#60;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&#62;
+&#60;html lang="en"&#62;
+	&#60;head&#62;
+		&#60;title&#62;@:Untitled_document&#60;/title&#62;
+	&#60;/head&#62;
+	&#60;body&#62;
+		@:
+	&#60;/body&#62;
+&#60;/html&#62;</snippet>
+		</completion>
+		
+		<completion trigger="html5">
+			<snippet>&#60;!DOCTYPE HTML&#62;
+&#60;html lang="en"&#62;
+	&#60;head&#62;
+		&#60;meta charset="UTF-8"&#62;
+		&#60;title&#62;@:Untitled_document&#60;/title&#62;
+	&#60;/head&#62;
+	&#60;body&#62;
+		@:
+	&#60;/body&#62;
+&#60;/html&#62;</snippet>
+		</completion>
+	
+		<completion trigger="html_xt">
+			<snippet>&#60;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&#62;
+&#60;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&#62;
+	&#60;head&#62;
+		&#60;title&#62;@:Untitled_document&#60;/title&#62;
+		&#60;meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/&#62;
+	&#60;/head&#62;
+	&#60;body&#62;
+		@:
+	&#60;/body&#62;
+&#60;/html&#62;</snippet>
+		</completion>
+		
+		<completion trigger="html_xs">
+			<snippet>&#60;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&#62;
+&#60;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&#62;
+	&#60;head&#62;
+		&#60;title&#62;@:Untitled_document&#60;/title&#62;
+		&#60;meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/&#62;
+	&#60;/head&#62;
+	&#60;body&#62;
+		@:
+	&#60;/body&#62;
+&#60;/html&#62;</snippet>
+		</completion>
+		
+		<completion trigger="html_xxs">
+			<snippet>&#60;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&#62;
+&#60;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"&#62;
+	&#60;head&#62;
+		&#60;title&#62;@:Untitled_document&#60;/title&#62;
+		&#60;meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/&#62;
+	&#60;/head&#62;
+	&#60;body&#62;
+		@:
+	&#60;/body&#62;
+&#60;/html&#62;</snippet>
+		</completion>
+	
+		<completion trigger="b">
+			<snippet>&#60;b&#62;@:&#60;/b&#62;</snippet>
+		</completion>
+	
+		<completion trigger="body">
+			<snippet>&#60;body&#62;
+	@:
+&#60;/body&#62;</snippet>
+		</completion>
+		<completion trigger="br">
+			<snippet>&#60;br/&#62;@:</snippet>
+		</completion>
+		
+		<completion trigger="code">
+			<snippet>&#60;code&#62;@:&#60;/code&#62;</snippet>
+		</completion>
+		
+		<completion trigger="img">
+			<snippet>&#60;img src="@:source" alt="@:alt_text"/&#62;</snippet>
+		</completion>
+		
+		<completion trigger="ie">
+			<snippet>&#60;!--[if IE]&#62; @:textContent &#60;![endif]--&#62;</snippet>
+		</completion>
+		
+		<completion trigger="noie">
+			<snippet>&#60;!--[if !IE]&#62;&#60;!--&#62; @:textContent &#60;!--&#60;![endif]--&#62;</snippet>
+		</completion>
+		
+		<completion trigger="div">
+			<snippet>&#60;div&#62;
+	@:textContent
+&#60;/div&#62;</snippet>
+		</completion>
+		<completion trigger="fieldset">
+			<snippet>&#60;fieldset id="@:id"&#62;
+	@:textContent
+&#60;/fieldset&#62;</snippet>
+		</completion>
+		<completion trigger="form">
+			<snippet>&#60;form id="@:unique" method="@:post"&#62;
+	@:textContent
+	&#60;input type="submit" value="@:value"/&#62;
+&#60;/form&#62;</snippet>
+		</completion>
+		<completion trigger="head">
+			<snippet>&#60;head&#62;
+	&#60;meta http-equiv="Content-type" content="text/html; charset=utf-8"/&#62;
+	&#60;title&#62;@:Untitled_document&#60;/title&#62;
+&#60;/head&#62;
+@:body</snippet>
+		</completion>
+		<completion trigger="h1">
+			<snippet>&#60;h1&#62;@:&#60;/h1&#62;</snippet>
+		</completion>
+		<completion trigger="h2">
+			<snippet>&#60;h2&#62;@:&#60;/h2&#62;</snippet>
+		</completion>
+		<completion trigger="h3">
+			<snippet>&#60;h3&#62;@:&#60;/h3&#62;</snippet>
+		</completion>
+		<completion trigger="h4">
+			<snippet>&#60;h4&#62;@:&#60;/h4&#62;</snippet>
+		</completion>
+		<completion trigger="h5">
+			<snippet>&#60;h5&#62;@:&#60;/h5&#62;</snippet>
+		</completion>
+		<completion trigger="button">
+			<snippet>&#60;button id="@:id"&#62;@:value&#60;button&#62;</snippet>
+		</completion>
+
+		<completion trigger="i">
+			<snippet>&#60;i&#62;@:&#60;/i&#62;</snippet>
+		</completion>
+
+		<completion trigger="input">
+			<snippet>&#60;input type="@:text" name="@:name" value="@:value" /&#62;</snippet>
+		</completion>
+		<completion trigger="submit">
+			<snippet>&#60;input type="submit" name="@:name" value="" /&#62;</snippet>
+		</completion>
+		<completion trigger="label">
+			<snippet>&#60;label for="@:input"/&#62;</snippet>
+		</completion>
+		<completion trigger="link">
+			<snippet>&#60;link rel="@:stylesheet" href="/css/master.css" type="text/css" media="screen"/&#62;</snippet>
+		</completion>
+	    <completion trigger="mailto">
+	    	<snippet>&#60;a href="mailto:@:"&#62;@:email&#60;/a&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="meta">
+	    	<snippet>&#60;meta name="@:name" content="@:content" /&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="object">
+	    	<snippet>&#60;object type="application/x-shockwave-flash" data="@:path_to_file.swf" width="0" height="0"&#62;
+	&#60;param name="movie" value="path_to_file.swf" /&#62;
+	&#60;param name="quality" value="high"/&#62;
+&#60;/object&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="option">
+	    	<snippet>&#60;option value="@:value"&#62;@:textContent&#60;/option&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="p">
+	    	<snippet>&#60;p&#62;@:&#60;/p&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="scriptsrc">
+	    	<snippet>&#60;script type="text/javascript" src="@:source" charset="utf-8"&#62;&#60;/script&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="script">
+	    	<snippet>&#60;script type="text/javascript" charset="utf-8"&#62;
+	@:jq
+&#60;/script&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="noscript">
+	    	<snippet>&#60;noscript&#62;
+	@:textContent
+&#60;/noscript&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="select">
+			<snippet>&#60;select name="@:name"&#62;
+	&#60;option value="@:value"&#62;@:textContent&#60;/option&#62;
+&#60;/select&#62;</snippet>
+	    </completion>
+	    <completion trigger="style">
+			<snippet>&#60;style type="text/css" media="screen"&#62;
+	@:
+&#60;/style&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="span">
+	    	<snippet>&#60;span&#62;@:textContent&#60;/span&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="table">
+			<snippet>&#60;table&#62;
+	&#60;tr&#62;
+		&#60;th&#62;@:placeholder&#60;/th&#62;
+	&#60;/tr&#62;
+	&#60;tr&#62;
+		&#60;td&#62;@:placeholder&#60;/td&#62;
+	&#60;/tr&#62;
+&#60;/table&#62;</snippet>
+	    </completion>
+	    <completion trigger="textarea">
+	    	<snippet>&#60;textarea name="@:name" rows="8" cols="40"&#62;@:context&#60;/textarea&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="title">
+	    	<snippet>&#60;title&#62;@:textContent&#60;/title&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="class">
+	    	<snippet>class="@:value"</snippet>
+	    </completion>
+	    <completion trigger="sty">
+	    	<snippet>style="@:value"</snippet>
+	    </completion>
+	    <completion trigger="id">
+	    	<snippet>id="@:uniqueID"</snippet>
+	    </completion>
+	    <completion trigger="name">
+	    	<snippet>name="@:name"</snippet>
+	    </completion>
+	    
+	    <completion trigger="jq">
+	    	<snippet>$(document).ready(function(){
+	@:jqsel
+});</snippet>
+	    </completion>
+	    <completion trigger="jqsel">
+	    	<snippet>$('@:selector').</snippet>
+	    </completion>
+	    <completion trigger="jqbind">
+	    	<snippet>$('@:selector').bind('', function() {
+	
+});</snippet>
+	    </completion>
+	    
+	    <completion trigger="jqlive">
+	    	<snippet>$('@:selector').live('', function() {
+	
+});</snippet>
+	    </completion>
+	    
+	    <completion trigger="log">
+			<snippet>console.log('@:message');</snippet>
+	    </completion>
+	    
+	    <completion trigger="tr">
+	    	<snippet>&#60;tr&#62;
+	@:td
+&#60;/tr&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="td">
+	    	<snippet>&#60;td&#62;@:textContent&#60;/td&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="th">
+	    	<snippet>&#60;th&#62;@:textContent&#60;/th&#62;</snippet>
+	    </completion>
+	    
+	    <completion trigger="lorem">
+	    	<snippet>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer venenatis justo non augue scelerisque convallis. Vivamus facilisis risus eget massa tincidunt ut rutrum risus vulputate. Suspendisse potenti. Suspendisse rutrum consequat ligula, sed ullamcorper elit iaculis a. Quisque eleifend tempus luctus. Mauris id ante tortor. Nam dictum, urna in interdum semper, eros leo sollicitudin orci, eget lobortis augue felis vitae lacus. Praesent ut nunc nunc, in congue sapien. Nulla nisi lectus, mollis non congue nec, sagittis quis nibh. Vivamus sagittis fringilla nunc vitae pharetra. Sed a dignissim nisl. Etiam id ante enim, vel hendrerit libero. Integer hendrerit pretium ipsum, a mattis sapien elementum vel. Sed tellus ligula, pharetra blandit ultrices vitae, dictum venenatis nunc.
+&#60;br/&#62;&#60;br/&#62;
+Ut quis lorem eros, eu tempor erat. Proin velit enim, elementum eget cursus ut, dignissim id ipsum. Aenean et fringilla nisl. Fusce neque massa, ultrices eu tempor suscipit, vehicula id leo. Fusce purus quam, blandit a iaculis eu, consequat ut leo. Suspendisse dignissim dui eu purus aliquam sed placerat velit sodales. Aenean ac enim massa, non fringilla lectus. Etiam congue faucibus viverra. Vivamus eleifend enim vel ante rutrum bibendum. Donec malesuada sollicitudin egestas. Vivamus in justo quis tellus mollis venenatis. Donec erat nisl, euismod consectetur mattis vitae, vulputate quis dui.
+&#60;br/&#62;&#60;br/&#62;
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas id ipsum elit. Ut eget ipsum mi, semper mattis lectus. Etiam sodales fringilla nibh quis facilisis. Ut sed purus nisi. Donec vel enim a arcu porta faucibus. Aenean tortor dui, mattis eu faucibus vitae, pretium nec est. Suspendisse potenti. Vivamus mollis auctor odio, ac ultricies velit rhoncus at. Fusce porttitor eleifend mi vitae sollicitudin. Fusce varius feugiat varius. Integer eu sem id ligula euismod ultrices. Donec nulla odio, pharetra ac dignissim sed, facilisis non metus. Sed congue tempus magna. Integer vel porta arcu. Integer sit amet odio sit amet sem egestas dignissim.
+&#60;br/&#62;&#60;br/&#62;
+Donec hendrerit faucibus massa, at vulputate libero gravida nec. Aenean dolor dolor, luctus vitae venenatis vestibulum, semper a mauris. In hac habitasse platea dictumst. Donec vestibulum sem cursus dui bibendum eleifend. Pellentesque eleifend, neque ut porttitor pharetra, augue nisi tempus sapien, ac mattis enim lectus vitae turpis. Vestibulum euismod, nibh eget vehicula ornare, purus metus faucibus lacus, nec varius sapien justo id ante. Pellentesque porttitor elementum enim, id fermentum odio bibendum nec. Cras pellentesque est ac elit tincidunt ultricies. Nullam ullamcorper pharetra tellus, a volutpat augue rhoncus eget. Duis hendrerit, odio in faucibus pretium, ante magna faucibus orci, quis facilisis ligula enim id turpis. Nullam porta arcu sit amet libero condimentum sed mattis tortor sodales. Nulla commodo quam at tortor pellentesque tempus. Pellentesque gravida, mi in tristique iaculis, felis dolor sodales mi, eget porttitor odio metus eget justo. Curabitur vitae justo vitae dui sodales ultrices. Nullam a justo sit amet nibh consequat pulvinar. Pellentesque enim eros, condimentum at congue posuere, tempus dictum eros. Praesent dignissim, massa facilisis luctus mollis, neque orci consequat lorem, quis suscipit massa lectus non eros. Maecenas fermentum nisl quis neque pellentesque ut sagittis nibh ultrices. Nunc ac elit elit. Aenean sed turpis lorem, at feugiat odio.
+&#60;br/&#62;&#60;br/&#62;
+Donec sit amet nulla nec libero consequat egestas. Mauris nibh metus, feugiat sit amet rhoncus quis, consectetur vitae arcu. Phasellus adipiscing posuere urna, non tincidunt massa viverra non. Duis pellentesque ultrices erat nec dictum. Donec nec enim quam, quis rutrum elit. Aliquam dictum nisl quis sem semper sagittis. Suspendisse potenti. Aenean eu sapien ac arcu imperdiet tristique. Praesent iaculis mollis quam, ut sollicitudin lorem dictum vitae. Quisque et ante nisl. Duis eu pellentesque purus. Integer non urna a sem viverra egestas vel et ante. Nam at porta purus.</snippet>
+	    </completion>
+	    
+	</set>
+</codesense>
